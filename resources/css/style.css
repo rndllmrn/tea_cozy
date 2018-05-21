@@ -8,8 +8,8 @@
 body {
   background-color: black;
   font-size: 22px;
-  color: seashell;
   opacity: 0.9;
+  color: seashell;
   font-family: Helvetica, sans-serif;
 }
 
@@ -24,10 +24,12 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .logo {
@@ -39,3 +41,154 @@ nav span {
   margin-right: 10px;
   padding-left: 15px;
 }
+
+/* Mission Styling */
+
+.our-mission {
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  background-image: url("../images/mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.mission-title,
+.mission-text {
+  padding: 10px;
+  color: seashell;
+}
+
+
+
+/* -----------------------
+ Tea of the Month Section
+ ------------------------*/
+
+/* General Tea Container */
+
+.totm-container {
+  width: 1000px;
+  margin-top: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.totm-title {
+  padding: 20px;
+}
+
+.totm-steeping {
+  margin-bottom: 25px;
+}
+
+/* Teas */
+.tea-images {
+  height: 200px;
+  width: 300px;
+}
+
+.totm-teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  margin: 0 15px 15px 15px;
+}
+
+.tea-titles {
+  padding: 10px;
+}
+
+/* Locations */
+
+.locations-container {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/locations-background.jpg");
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations-title {
+  margin-bottom: -5px;
+}
+
+.locations {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.address h3 {
+  margin: 12px;
+}
+
+.address p {
+  padding: 25px 0;
+}
+
+.oakdale {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
